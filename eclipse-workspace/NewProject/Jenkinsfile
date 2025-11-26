@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://your-git-repo-url.git'   // Update to your repo
+                git url: 'https://github.com/Venkatsagi1/mavan-test-example1.git'  ,branch:"master" // Update to your repo
             }
         }
         stage('Build') {
